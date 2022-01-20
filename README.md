@@ -6,14 +6,10 @@ I made this Bookmark saving chrome extenstion with the help od HTMl5,CSS3,JavaSc
 To run this extension on your browser
 cmd to your desired folder and paste this link hit enter.
 $ git clone https://github.com/UsamaBinKashif/Bookmarksaver-chrome-extension.git
--
---
----
+
 Once it is cloned go to chrome extensions and select manage extensions
 dont worry if you can not find the option go to this link: chrome://extensions/
-----
------
-------
+
 After this turn on the developer mode on the top right corner of your page, select load unpacked, select this clonned folder add and TADDDDAAA!!! 
 it is on your browerser now use this and if you like it leave a star here. 
 
