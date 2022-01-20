@@ -5,7 +5,7 @@ I made this Bookmark saving chrome extenstion with the help od HTMl5,CSS3,JavaSc
 
 To run this extension on your browser
 cmd to your desired folder and paste this link hit enter.
-$ git clone --bare https://github.com/UsamaBinKashif/ChromeExtension.git
+git clone https://github.com/ChromeExtension.git
 
 Once it is cloned go to chrome extensions and select manage extensions
 dont worry if you can not find the option go to this link: chrome://extensions/
