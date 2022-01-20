@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-width: 400px;
+}
+
+:root {
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-royalblue: royalblue;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: 3px solid var(--clr-dark);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid var(--clr-royalblue);
+
+}
+
+.btn {
+    padding: 10px 20px;
+    color: var(--clr-light);
+    background-color: var(--clr-royalblue);
+    outline: none;
+    border: var(--clr-dark) 2px solid;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.del-btn {
+    padding: 10px 20px;
+    outline: none;
+    font-weight: bolder;
+    cursor: pointer;
+    border: var(--clr-royalblue) 2px solid;
+    color: var(--clr-royalblue);
+    background-color: var(--clr-light);
+}
+
+.s-btn {
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
+    border: var(--clr-dark) 2px solid;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#bs-ul {
+    list-style: decimal;
+    padding-right: 5px !important;
+}
+
+#bs-ul li a {
+
+    text-decoration: none;
+    color: var(--clr-dark);
+}
